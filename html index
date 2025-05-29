@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bebo Fit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f3f4f6;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .input-section {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #10b981;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .results {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Bebo Fit - حساب السعرات</h1>
+  <div class="input-section">
+    <label for="calories">السعرات:</label>
+    <input type="number" id="calories" /><label for="protein">البروتين (جم):</label>
+<input type="number" id="protein" />
+
+<label for="carbs">الكارب (جم):</label>
+<input type="number" id="carbs" />
+
+<label for="fat">الدهون (جم):</label>
+<input type="number" id="fat" />
+
+<button onclick="addMeal()
